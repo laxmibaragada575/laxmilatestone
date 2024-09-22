@@ -1,0 +1,135 @@
+.home-hero .home-hero-carousel-container {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.home-hero h1 {
+  font-size: 95px;
+}
+
+.home-hero .home-hero-carousel-background {
+  height: 100vh;
+  width: 100vw; 
+  background-size: cover;
+  background-position: center;
+}
+
+.home-hero .home-hero-carousel-slide {
+  height: 100vh;
+  width: 100vw; 
+}
+
+.home-hero .home-hero-carousel-caption {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  z-index: 100;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.home-hero .slick-dots {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+}
+
+.home-hero .slick-dots li {
+  margin: 1px !important;
+}
+
+.home-hero .slick-dots li button {
+  width: 20px !important;
+  height: 20px !important;
+  margin: 5px !important;
+}
+
+.home-hero .slick-dots li button:before {
+  font-size: 20px !important;
+  color: white !important;
+  opacity: 1 !important;
+}
+
+.home-hero .slick-dots li.slick-active button:before {
+  color: #334257 !important;
+}
+
+/* Medium devices (tablets, 992px and up) */
+@media (max-width: 992px) {
+  .home-hero h1 {
+    font-size: 70px;
+  }
+
+  .home-hero .home-hero-carousel-caption {
+    gap: 15px;
+  }
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (max-width: 768px) {
+  .home-hero h1 {
+    font-size: 60px;
+  }
+
+  .home-hero .home-hero-carousel-caption {
+    gap: 10px;
+  }
+
+  .home-hero .home-hero-carousel-background {
+    height: 80vh;
+  }
+
+  .home-hero .home-hero-carousel-slide {
+    height: 80vh;
+  }
+
+  .home-hero .slick-dots li button {
+    width: 15px !important;
+    height: 15px !important;
+  }
+
+  .home-hero .slick-dots li button:before {
+    font-size: 15px !important;
+  }
+}
+
+/* Extra small devices (phones, less than 576px) */
+@media (max-width: 576px) {
+  .home-hero h1 {
+    font-size: 50px;
+  }
+
+  .home-hero .home-hero-carousel-caption {
+    gap: 8px;
+  }
+
+  .home-hero .home-hero-carousel-background {
+    height: 70vh;
+  }
+
+  .home-hero .home-hero-carousel-slide {
+    height: 70vh;
+  }
+
+  .home-hero .slick-dots li button {
+    width: 12px !important;
+    height: 12px !important;
+  }
+
+  .home-hero .slick-dots li button:before {
+    font-size: 12px !important;
+  }
+}

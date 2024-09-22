@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+.link {
+  text-decoration: none;
+  color: black;
+}
+.link:hover {
+  color: #91bfff;
+}
+
+.btn {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 13px;
+  cursor: pointer;
+  color: #334257;
+  font-weight: bold;
+}

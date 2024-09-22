@@ -1,0 +1,758 @@
+.con-1 {
+  color: white;
+  background-image: url(../../assets/images/about-bg.webp);
+  background-size: cover;
+  width: 100%;
+  padding: 70px;
+  padding-top: 170px;
+  padding-bottom: 80px;
+}
+.con-1 p,
+.con-2 p,
+.con-5 p {
+  color: rgb(44, 119, 225);
+  font-weight: 700;
+}
+.con-1 h1 {
+  color: white;
+  width: 65%;
+  font-size: 55px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  font-weight: bold;
+}
+.about-con .arrow-1 {
+  border: 2.5px solid white;
+  border-radius: 25px;
+  display: flex;
+  font-size: 16px;
+  align-items: center;
+  color: white;
+  background-color: black;
+  width: 125px;
+  padding: 12px;
+  justify-content: space-evenly;
+  transition-duration: 0.5s;
+}
+.arrow-1:hover {
+  color: black;
+  background-color: white;
+  width: 140px;
+  gap: 8px;
+}
+.arrow-icon {
+  transition: transform;
+}
+.arrow-1:hover .arrow-icon {
+  transform: scaleX(1.8);
+  transform-origin: left;
+}
+.con-2 {
+  background-color: white;
+  width: 100%;
+  padding: 70px;
+  padding-top: 100px;
+}
+.sub-con {
+  width: 100%;
+}
+.sub-con h1 {
+  color: black;
+  width: 65%;
+  font-size: 45px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  font-weight: bold;
+}
+.sub-con button {
+  font-size: 16px;
+  border: 2.5px solid black;
+  justify-content: space-evenly;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  color: black;
+  background-color: white;
+  width: 180px;
+  padding: 12px;
+  transition-duration: 0.5s;
+}
+.sub-con button:hover {
+  background-color: black;
+  border-color: 2.5px solid black;
+  color: white;
+  width: 200px;
+  transition-duration: 0.5s;
+}
+.sub-con button:hover .arrow-icon {
+  transform: scaleX(2);
+  transform-origin: right;
+}
+.video-con {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  width: 100%;
+  height: 600px;
+}
+.con-3 {
+  width: 100%;
+  padding: 70px;
+  padding-top: 0px;
+}
+.con-3 h1 {
+  color: black;
+  width: 65%;
+  font-size: 40px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+.con-3 hr,
+.sub-con hr {
+  width: 80px;
+  border: 1.6px rgb(44, 119, 225) solid;
+}
+.sub-con-1 {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.sub-con-1-text {
+  width: 45%;
+}
+.sub-con-1-text :first-child,
+.con-2 .sub-con-1 .sub-con-1-text :first-child {
+  color: #343434;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.5;
+  padding-bottom: 30px;
+}
+.para,
+.con-2 .sub-con-1 .sub-con-1-text p {
+  color: #4d4d4d;
+  font-size: 18px;
+  line-height: 1.5;
+  padding-bottom: 30px;
+}
+.test {
+  font-size: 16px;
+  border: 2.5px solid black;
+  justify-content: space-evenly;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  color: black;
+  background-color: white;
+  width: 160px;
+  padding: 12px;
+  transition-duration: 0.5s;
+}
+.test:hover {
+  background-color: black;
+  border-color: 2.5px solid black;
+  color: white;
+  width: 180px;
+  transition-duration: 0.5s;
+}
+.test:hover .arrow {
+  transform: scaleX(2);
+  transform-origin: right;
+}
+.con-4 {
+  background-color: #fafafa;
+  padding: 70px;
+}
+.card-1 {
+  background-color: white;
+  padding: 50px;
+  border-radius: 8px;
+  box-shadow: 1px 1px 4px -1px;
+  display: flex;
+  margin-bottom: 50px;
+  align-items: center;
+}
+.card-1-text {
+  width: 80%;
+}
+.re-adjust {
+  width: 65%;
+  padding-top: 100px;
+}
+.card-1-text h1 {
+  color: black;
+  font-size: 35px;
+  font-weight: 700;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.card-1-text p {
+  color: #4d4d4d;
+  font-size: 18px;
+  line-height: 1.5;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+.aa-con {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  padding: 20px;
+  align-items: center;
+  margin-top: 50px;
+  border: 1px solid rgb(208, 205, 205);
+  border-radius: 10px;
+}
+.aa-con img {
+  margin-left: 50px;
+}
+.aa-con img:hover {
+  border-radius: 10px;
+  box-shadow: 1px 1px 4px -1px;
+  transform: scale(1.03);
+}
+.aa-con p {
+  color: black;
+  line-height: 1.6;
+  font-size: 18px;
+  width: 60%;
+}
+.aa-con p a {
+  color: blue;
+  cursor: pointer;
+}
+.aa-con p a:hover {
+  text-decoration: underline;
+  border-color: blue;
+}
+.mission {
+  width: 30%;
+  height: 30%;
+  align-self: center;
+  padding-left: 100px;
+}
+
+.con-5 {
+  background-color: black;
+  padding: 50px;
+  padding-top: 80px;
+}
+.con-5 h1 {
+  color: white;
+  font-size: 45px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  font-weight: bold;
+}
+.sub-con-2 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.form {
+  width: 50%;
+  padding-bottom: 50px;
+}
+form input {
+  background-color: #252525;
+  border: none;
+  color: white;
+  border-radius: 4px;
+  width: 100%;
+  font-weight: 600;
+  font-size: 16px;
+  padding-left: 10px;
+  height: 50px;
+  margin-bottom: 10px;
+}
+form textarea {
+  background-color: #252525;
+  border: none;
+  color: white;
+  border-radius: 4px;
+  width: 100%;
+  font-weight: 600;
+  font-size: 16px;
+  padding-left: 10px;
+  margin-bottom: 10px;
+}
+
+
+.image {
+  transition: transform 0.3s ease-in;
+  margin-top: 0px;
+}
+
+.image:hover {
+  transform: scale(1.03);
+}
+
+@media (max-width:480px) {
+  .con-1{
+    width: 100%;
+    padding: 25px;
+    padding-top: 130px;
+    padding-bottom: 50px;
+
+  }
+  .con-1 h1{
+    font-size: 25px;
+    width: 100%;
+  }
+  .con-2 {
+    background-color: white;
+    width: 100%;
+    padding: 25px;
+  }
+  
+  .sub-con h1,.con-3 h1{
+    width: 100%;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    padding-bottom: 0px;
+  }
+  .sub-con-1{
+    margin-top: 10px;
+    flex-direction: column;
+  }
+  .sub-con-1 img{
+    width: 250px;
+    height: 250px;
+  }
+  .sub-con-1-text{
+    padding-top: 0px;
+    margin-top: 10px;
+    width: 100%;
+  }
+  .sub-con-1-text :first-child,
+  .con-2 .sub-con-1 .sub-con-1-text :first-child {
+    color: #343434;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 1.5;
+    padding-bottom: 10px;
+  }
+  .para,
+  .con-2 .sub-con-1 .sub-con-1-text p {
+    color: #4d4d4d;
+    font-size: 16px;
+    line-height: 1.5;
+    padding-bottom: 10px;
+  }
+  .con-3{
+    padding: 25px;
+    width: 100%;
+  }
+  .aa-con {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    width: 100%;
+    align-items: flex-start;
+    gap: 15px;
+  }
+  .aa-con img{
+    width: 200px;
+    height: 100px;
+    align-self:center;
+    margin: 0px;
+  }
+  .aa-con p{
+    width: 100%;
+    padding: 5px;
+    font-size: 16px;
+  }
+  .con-4{
+    width: 100%;
+    padding: 25px;
+  }
+  .card-1{
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .card-1-text{
+    width: 100%;
+  }
+  .card-1-text h1{
+    font-size: 24px;
+    padding-bottom: 5px;
+
+  }
+  .card-1-text p{
+    font-size: 16px;
+    text-align: justify;
+  }
+  .mission{
+    padding: 0px;
+    width: 90%;
+  }
+  .about-con .arrow-1 {
+  border: 2.5px solid white;
+  border-radius: 25px;
+  display: flex;
+  font-size: 16px;
+  align-items: center;
+  color: white;
+  background-color: black;
+  width: 125px;
+  padding: 12px;
+  justify-content: space-evenly;
+  transition-duration: 0.5s;
+}
+
+form button:hover {
+  color: black;
+  background-color: white;
+}
+.add-con {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-left: 100px;
+}
+.add-con h3 {
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+.add-con p {
+  color: white;
+  font-size: 25px;
+}
+.phn-icon {
+  margin-right: 15px;
+  font-size: 23px;
+}
+.image {
+  transition: transform 0.3s ease-in;
+  margin-top: 0px;
+}
+.image:hover {
+  transform: scale(1.03);
+}
+}
+
+@media (min-width:481px) and (max-width:768px){
+  .con-1{
+    width: 100%;
+    padding: 35px;
+    padding-top: 130px;
+    padding-bottom: 50px;
+
+  }
+  .con-1 h1{
+    font-size: 27px;
+    width: 70%;
+  }
+  .con-2 {
+    background-color: white;
+    width: 100%;
+    padding: 35px;
+  }
+  
+  .sub-con h1,.con-3 h1{
+    width: 100%;
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    padding-bottom: 0px;
+  }
+  .sub-con-1{
+    margin-top: 10px;
+    flex-direction: column;
+  }
+  .sub-con-1 img{
+    width: 100%;
+  }
+  .sub-con-1-text{
+    padding-top: 0px;
+    margin-top: 10px;
+    width: 100%;
+  }
+  .sub-con-1-text :first-child,
+  .con-2 .sub-con-1 .sub-con-1-text :first-child {
+    color: #343434;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 1.5;
+    padding-bottom: 10px;
+  }
+  .para,
+  .con-2 .sub-con-1 .sub-con-1-text p {
+    color: #4d4d4d;
+    font-size: 18px;
+    line-height: 1.5;
+    padding-bottom: 10px;
+  }
+  .con-3{
+    padding: 35px;
+    width: 100%;
+  }
+  .aa-con {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    width: 100%;
+    align-items: flex-start;
+    gap: 15px;
+  }
+  .aa-con img{
+    width: 300px;
+    height: 150px;
+    align-self:center;
+    margin: 0px;
+  }
+  .aa-con p{
+    width: 100%;
+    padding: 5px;
+    font-size: 18px;
+  }
+  .con-4{
+    width: 100%;
+    padding: 35px;
+  }
+  .card-1{
+    flex-direction: column;
+    padding: 30px;
+  }
+
+  .card-1-text{
+    width: 100%;
+  }
+  .card-1-text h1{
+    font-size: 26px;
+    padding-bottom: 5px;
+
+  }
+  .card-1-text p{
+    font-size: 18px;
+    text-align: justify;
+  }
+  .mission{
+    padding: 0px;
+    width: 70%;
+  }
+}
+
+@media (min-width:769px) and (max-width:1024px) {
+  .con-1{
+    width: 100%;
+    padding: 50px;
+    padding-top: 170px;
+    padding-bottom: 70px;
+
+  }
+  .con-1 h1{
+    font-size: 36px;
+    width: 70%;
+  }
+  .con-2 {
+    background-color: white;
+    width: 100%;
+    padding: 50px;
+  }
+  
+  .sub-con h1,.con-3 h1{
+    width: 100%;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    padding-bottom: 0px;
+  }
+  .sub-con-1{
+    margin-top: 10px;
+    flex-direction: row;
+  }
+  .sub-con-1 img{
+    width:350px;
+    height: 350px;
+    margin-left: 10px;
+  }
+  .sub-con-1-text{
+    padding-top: 0px;
+    margin-top: 10px;
+    width: 100%;
+
+  }
+  .sub-con-1-text :first-child,
+  .con-2 .sub-con-1 .sub-con-1-text :first-child {
+    color: #343434;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 1.5;
+    padding-bottom: 10px;
+  }
+  .para,
+  .con-2 .sub-con-1 .sub-con-1-text p {
+    color: #4d4d4d;
+    font-size: 20px;
+    line-height: 1.5;
+    padding-bottom: 10px;
+  }
+  .con-3{
+    padding: 50px;
+    width: 100%;
+  }
+  .aa-con {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    width: 100%;
+    align-items: flex-start;
+    gap: 15px;
+  }
+  .aa-con img{
+    width: 200px;
+    height: 100px;
+    margin: 0px;
+    align-self:center;
+    
+  }
+  .aa-con p{
+    width: 100%;
+    padding: 5px;
+    font-size: 20px;
+  }
+  .con-4{
+    width: 100%;
+    padding: 50px;
+  }
+  .card-1{
+    flex-direction:row;
+    padding: 30px;
+  }
+
+  .card-1-text{
+    width: 100%;
+    padding-right: 20px;
+  }
+  .card-1-text h1{
+    font-size: 26px;
+    padding-bottom: 5px;
+
+  }
+  .card-1-text p{
+    font-size: 20px;
+    text-align: justify;
+  }
+  .mission{
+    padding-left: 10px;
+    width: 450px;
+    height: 300px;
+  }
+}
+
+@media (min-width:1025px) and (max-width:1200px) {
+  .con-1{
+    width: 100%;
+    padding: 50px;
+    padding-top: 170px;
+    padding-bottom: 70px;
+
+  }
+  .con-1 h1{
+    font-size: 38px;
+    width: 65%;
+  }
+  .con-2 {
+    background-color: white;
+    width: 100%;
+    padding: 50px;
+  }
+  
+  .sub-con h1,.con-3 h1{
+    width: 100%;
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    padding-bottom: 0px;
+  }
+  .sub-con-1{
+    margin-top: 10px;
+    flex-direction: row;
+  }
+  .sub-con-1 img{
+    width:350px;
+    height: 350px;
+    margin-left: 10px;
+  }
+  .sub-con-1-text{
+    padding-top: 0px;
+    margin-top: 10px;
+    width: 100%;
+
+  }
+  .sub-con-1-text :first-child,
+  .con-2 .sub-con-1 .sub-con-1-text :first-child {
+    color: #343434;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 1.5;
+    padding-bottom: 10px;
+  }
+  .para,
+  .con-2 .sub-con-1 .sub-con-1-text p {
+    color: #4d4d4d;
+    font-size: 20px;
+    line-height: 1.5;
+    padding-bottom: 10px;
+  }
+  .con-3{
+    padding: 50px;
+    width: 100%;
+  }
+  .aa-con {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    width: 100%;
+    align-items: flex-start;
+    gap: 15px;
+  }
+  .aa-con img{
+    width: 300px;
+    height: 150px;
+    margin: 0px;
+    align-self:center;
+    margin-left: 10px;
+  }
+  .aa-con p{
+    width: 100%;
+    padding: 5px;
+    font-size: 20px;
+  }
+  .con-4{
+    width: 100%;
+    padding: 50px;
+  }
+  .card-1{
+    flex-direction:row;
+    padding: 30px;
+  }
+
+  .card-1-text{
+    width: 100%;
+    padding-right: 20px;
+  }
+  .card-1-text h1{
+    font-size: 30px;
+    padding-bottom: 5px;
+
+  }
+  .card-1-text p{
+    font-size: 21px;
+    text-align: justify;
+  }
+  .mission{
+    padding-left: 10px;
+    width: 450px;
+    height: 300px;
+  }
+}
+  

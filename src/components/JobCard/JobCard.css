@@ -1,0 +1,149 @@
+.job-card {
+  width: 100%;
+  height: auto;
+  border: 2px solid #476072;
+  margin: 50px 0;
+  padding-bottom: 20px;
+  transition: box-shadow 0.3s ease; /* Smooth transition for the shadow effect */
+}
+
+.job-card:hover {
+  box-shadow: -5px 5px 10px #476072; /* Shadow on top and right */
+}
+.title-section {
+  height: 110px; /* increased height by me */
+  padding: 10px 15px;
+  background: rgba(0, 0, 0, 0.05);
+}
+.sub-info {
+  display: flex;
+  padding: 5px 0;
+}
+.job-loc {
+  display: flex;
+}
+.skills {
+  padding: 25px 15px;
+}
+.responsibilities {
+  margin: 25px 15px;
+}
+.job-card .apply-btn {
+  margin: 15px;
+}
+.pagination-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.pagination-buttons button {
+  border: none;
+  height: 50px;
+  width: 50px;
+  padding: 10px;
+  margin: 0 5px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+.pagination-buttons button:disabled {
+  background-color: #aaa;
+  cursor: not-allowed;
+}
+
+.pagination-buttons span {
+  margin: 0 10px;
+}
+
+
+
+@media (max-width: 992px) {
+
+  .skills {
+    font-size: 18px;
+  }
+
+  .responsibilities p {
+    font-size: 20px;
+  }
+
+  .responsibilities li {
+    font-size: 20px;
+  }
+
+}
+
+@media (max-width: 768px ) {
+
+.skills {
+  font-size: 16px;
+}
+.responsibilities p {
+  font-size: 18px;
+}
+.responsibilities li {
+  font-size: 18px;
+}
+
+}
+
+@media (max-width: 576px) {
+
+.skills {
+  font-size: 14px;
+}
+.responsibilities p {
+  font-size: 16px;
+}
+.responsibilities li {
+  font-size: 16px;
+}
+
+}
+
+@media (max-width: 992px) {
+
+    .skills {
+      font-size: 18px;
+    }
+
+    .responsibilities p {
+      font-size: 20px;
+    }
+
+    .responsibilities li {
+      font-size: 20px;
+    }
+
+}
+
+@media (max-width: 768px ) {
+  
+  .skills {
+    font-size: 16px;
+  }
+  .responsibilities p {
+    font-size: 18px;
+  }
+  .responsibilities li {
+    font-size: 18px;
+  }
+
+}
+
+@media (max-width: 576px) {
+
+  .skills {
+    font-size: 14px;
+  }
+  .responsibilities p {
+    font-size: 16px;
+  }
+  .responsibilities li {
+    font-size: 16px;
+  }
+
+}

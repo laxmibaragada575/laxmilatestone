@@ -1,0 +1,112 @@
+.careers-con{
+  padding-bottom: 30px;
+}
+.hero {
+  height: 80vh;
+  width: 100%;
+  /* background-image: url("../src/assets/careers-banner-final.jpg"); */
+  /* background-position: center;
+  background-size: cover; */
+}
+.hot-jobs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 0;
+  gap: 20px;
+}
+.hot-jobs img {
+  height: 40px;
+  width: 40px;
+}
+.alljobs-container {
+  width: 80%;
+  margin: 0 auto;
+}
+.btn-link {
+  color: white;
+  text-decoration: none;
+}
+.btn-link:hover {
+  color: black;
+}
+/* added container by me*/
+.modify{
+  margin: 0 auto;
+  width: 80%;
+}
+@media (max-width: 1200px) {
+  .hero {
+    height: 80vh;
+  }
+
+  .alljobs-container {
+    width: 85%;
+  }
+}
+
+
+@media (max-width: 992px) {
+  .hero {
+    height: 60vh;
+  }
+
+  .hot-jobs {
+    gap: 1.25rem;
+  }
+
+  .hot-jobs img {
+    height: 35px;
+    width: 35px;
+  }
+
+  .alljobs-container {
+    width: 90%;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .hero {
+    height: 60vh;
+  }
+
+  .hot-jobs {
+    gap: .9375rem;
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+
+  .hot-jobs img {
+    height: 30px;
+    width: 30px;
+
+  }
+
+  .alljobs-container {
+    width: 85%;
+  }
+}
+
+
+@media (max-width: 576px) {
+  .hero {
+    height: 30vh;
+  }
+
+  .hot-jobs {
+    gap: 20px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+  }
+
+  .hot-jobs img {
+
+    height: 30px;
+    width: 30px;
+  }
+
+  .alljobs-container {
+    width: 80%;
+  }
+}

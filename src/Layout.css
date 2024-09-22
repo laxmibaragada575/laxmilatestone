@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.scroll-container {
+  height: 100vh;
+  overflow-y: scroll;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.scroll-container::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, and Opera */
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  transition: color 0.3s, background-color 0.3s;
+}
+
+.section {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-dark {
+  background-color: #000;
+  color: white;
+}
+
+.section-light {
+  background-color: #fff;
+  color: black;
+}

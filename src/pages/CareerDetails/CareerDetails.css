@@ -1,0 +1,243 @@
+
+.main {
+  width: 100%;
+  height: 380px;
+  background-color: #334257;
+  color: white;
+  position: relative;
+}
+.title-container {
+  position: absolute;
+  bottom: 80px;
+  left: 100px;
+}
+
+.sub-main {
+  height: 100%;
+  width: 90%;
+  margin: 20px auto;
+  display: flex; 
+  justify-content: space-around;
+  border: 1px solid #334257;
+  gap: 20px; /* Add gap between flex items */
+  padding: 10px; /* Add padding */
+}
+.sub-main-childern {
+ 
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.sub-main-childern p {
+  color: rgb(94, 89, 89);
+}
+.sub-main-childern h4 {
+  color: rgb(32, 30, 30);
+  font-size: 1.2rem;
+}
+.sub-main-2 {
+  width: 90%;
+  margin: 10px auto;
+  display: flex;
+}
+
+.sub-info {
+  gap: .625rem;
+  padding-right: 10px;
+}
+.add-responsibilities ul {
+  padding-left: 40px;
+}
+.roles {
+  width: 70%;
+}
+.span-heading {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 50px 0px;
+}
+.back-button {
+  position: relative;
+  top: 100px;
+  left: 80px;
+  color: white;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.container {
+  position: relative;
+}
+
+.apply-button {
+  background-color: #334257;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px;
+  margin-left: 75px;
+}
+
+.apply-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 900;
+}
+
+.modal-content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 600px;
+  width: 90%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+.modal-content h2 {
+  margin-bottom: 20px;
+}
+
+.modal-content form {
+  display: flex;
+  flex-direction: column;
+}
+
+.modal-content label {
+  margin-bottom: 8px;
+}
+
+.modal-content input,
+.modal-content textarea {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  background-color: #334257; /* Set input background color */
+  color: white;
+ }
+
+.modal-content button {
+  background-color: #334257;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+
+.modal-content .close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 24px;
+  cursor: pointer;
+  color: #aaa;
+}
+
+.modal-content .close:hover,
+.modal-content .close:focus {
+  color: white;
+  text-decoration: none;
+}
+
+@media (max-width: 992px) {
+  .title-container {
+    left: 50px;
+    bottom: 60px;
+  }
+
+  .main {
+    height: 300px;
+  }
+}
+
+@media (max-width: 768px) {
+  
+  .main {
+    height: 300px;
+  }
+
+  .sub-main {
+    flex-direction: column;
+  }
+  .sub-main,
+  .sub-main-2 {
+    padding: 15px;
+  }
+
+  .sub-main-children {
+    flex: 1 1 100%; /* Allow each child to take full width */
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .sub-main-2 {
+    width: 100%;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column; 
+  }
+  .roles {
+    width: 100%; /* Full width */
+  }
+  
+  .span-heading {
+    font-size: 20px;
+  }
+
+  .educational-requirements {
+    padding-top: 35px;
+    padding-left: 10px;
+    font-size: 18px;
+  }
+  
+  .service-line {
+    padding-left: 10px;
+    font-size: 18px;
+  }
+  .skills {
+    width: 100%; /* Full width */
+    padding-top: 35px;
+    padding-left: 10px;
+    font-size: 18px;
+  }
+
+}
+@media (max-width: 576px) {
+
+  .main {
+    height: 250px;
+  }
+  
+  .title-container {
+    left: 20px;
+    bottom: 40px;
+  }
+  .sub-main-children {
+    padding: 5px;
+  }
+
+  .apply-button {
+    
+    text-align: center;
+    margin: 20px 25px;
+  }
+}
+

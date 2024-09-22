@@ -1,0 +1,42 @@
+.second-carousel-container {
+  width: 80%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.second-carousel-slide {
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  /* transition: transform 0.3s ease; */
+}
+
+.second-carousel-prev:before,
+.second-carousel-next:before {
+  color: white;
+}
+
+.second-carousel-prev,
+.second-carousel-next {
+  width: 40px;
+  height: 40px;
+  z-index: 1;
+}
+
+.second-carousel-prev {
+  left: -50px;
+}
+
+.second-carousel-next {
+  right: -50px;
+}
+
+/*by me*/
+
+@media screen and (max-width:480px) {
+  .second-carousel-container{
+    width: 100%;
+    height: max-content;
+  }
+}
